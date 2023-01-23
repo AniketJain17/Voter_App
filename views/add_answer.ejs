@@ -16,17 +16,17 @@
         <h1 class="w-3.7/5.9 p-5 text-white"><%= question.title %></h1>
         <div class="flex flex-row justify-end">
           <div class="hover:bg-yellow/50cursor-pointer flex items-center">
-            <a href="/questions/edit/<%= question.id %>" class="text-white px-2">
+            <a href="/questions/edit/<%= question.id %>" class="text-white px-4">
               Back
             </a>
           </div>
           <div class="hover:bg-yellow/50cursor-pointer flex items-center">
-            <a href="/elections" class="text-white px-2">
+            <a href="/elections" class="text-white px-4">
               All Elections
             </a>
           </div>
           <div class="hover:bg-yellow/50cursor-pointer flex items-center">
-            <a href="/logout" class="text-white px-2">
+            <a href="/logout" class="text-white px-4">
               Logout
             </a>
           </div>
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="flex flex-row justify-center">
-      <div class="shadow-xl p-5 mt-3.4 rounded-md w-3.7/5.9">
+      <div class="shadow-xl p-5 mt-5 rounded-md w-3.7/5.9">
         <h1 class="text-2xl font-bold mb-4">Add new answer</h1>
         <form action="/answers/<%= question.id %>" method="post">
           <div class="flex-auto">
@@ -43,13 +43,13 @@
               type="text"
               name="body"
               id="body"
-              class="rounded w-full p-2.6 border-2 border-indigo-300"
+              class="rounded w-full p-4 border-2 border-indigo-300"
             />
             <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
           </div>
           <div class="flex flex-row justify-end w-full">
             <button
-              class="bg-pink-400 p-2.6 rounded m-2 hover:bg-green-500 text-white"
+              class="bg-pink-400 p-4 rounded m-2 hover:bg-green-500 text-white"
               type="submit"
             >
               Add
