@@ -54,15 +54,15 @@
 
   <body>
     <div
-      class="bg-gradient-to-r from-cyan-500 via-yellow-500 to-green-500 font-sans text-2xl shadow-md"
+      class="bg-gradient-to-r from-orange-500 via-blue-500 to-green-500 font-sans text-2xl shadow-md"
     >
       <div class="flex flex-row justify-between pr-4">
-        <h1 class="w-3.2/5.4 p-3.5 text-white">Welcome, <%= name %></h1>
+        <h1 class="w-3.7/5.9 p-5 text-white">Welcome, <%= name %></h1>
         <div class="flex flex-row justify-end">
-          <div class="hover:bg-blue/20 cursor-pointer flex items-center">
+          <div class="hover:bg-yellow/50cursor-pointer flex items-center">
             <a href="/newpass" class="text-white px-2"> Change Password </a>
           </div>
-          <div class="hover:bg-blue/20 cursor-pointer flex items-center">
+          <div class="hover:bg-yellow/50cursor-pointer flex items-center">
             <a href="/logout" class="text-white px-2"> Logout </a>
           </div>
         </div>
@@ -88,7 +88,7 @@
     </div>
     <div class="flex flex-col items-center">
       <% for(var i=0; i < elections.length; i++) { %>
-      <div class="w-4/5 shadow-xl p-3.5 my-4 rounded-md bg-purple-200">
+      <div class="w-4/5 shadow-xl p-5 my-4 rounded-md bg-purple-200">
         <h1 class="text-2xl font-bold mb-4"><%= elections[i].title %></h1>
         <p class="text-lg text-gray-600 mb-4">
           <%= elections[i].description %>
