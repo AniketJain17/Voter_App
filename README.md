@@ -40,4 +40,4 @@ This a simple, easy to use and open source online voting platform where you can 
 
 #### 👉 [Try it out](https://voter.onrender.com)
 
-#### 👉 [Demo Video]()
+#### 👉 [Demo Video](https://www.loom.com/share/279f22adc33c4cb98f1979a451e41ea8)
